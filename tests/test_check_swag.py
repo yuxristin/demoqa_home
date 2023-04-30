@@ -8,3 +8,5 @@ def test_icon(browser):
     swag.exist_icon()
     assert swag.get_url()
     assert swag.exist_icon()
+    assert swag.user_name()
+    assert swag.password()
