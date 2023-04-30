@@ -13,10 +13,12 @@ def  test_get_url(browser):
     swag.visit()
     assert swag.get_url()
 
+
 def user_name(browser):
     swag = SwagLabs(browser)
     swag.visit()
     assert swag.user_name()
+
 
 def user_name(browser):
     swag = SwagLabs(browser)
