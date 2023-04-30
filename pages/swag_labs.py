@@ -14,6 +14,7 @@ class SwagLabs(BasePage):
 
 
     def get_url(self):
+        time.sleep(10)
         return self.driver.current_url
 
 
