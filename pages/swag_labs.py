@@ -1,8 +1,11 @@
+import time
+
 from selenium.common.exceptions import NoSuchElementException
 from pages.base_page import BasePage
 class SwagLabs(BasePage):
 
     def exist_icon(self):
+        time.sleep(10)
         try:
             self.find_element(locator='div.login_logo').click()
         except NoSuchElementException:
